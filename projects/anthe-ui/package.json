@@ -1,9 +1,13 @@
 {
-  "name": "anthe-ui",
+  "name": "@kauelima21/anthe-ui",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^15.0.0",
     "@angular/core": "^15.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kauelima21/anthe.git"
   },
   "dependencies": {
     "tslib": "^2.3.0"
