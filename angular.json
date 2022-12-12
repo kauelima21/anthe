@@ -121,6 +121,39 @@
           }
         }
       }
+    },
+    "anthe-ui": {
+      "projectType": "library",
+      "root": "projects/anthe-ui",
+      "sourceRoot": "projects/anthe-ui/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/anthe-ui/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/anthe-ui/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/anthe-ui/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/anthe-ui/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        }
+      }
     }
   }
 }

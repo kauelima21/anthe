@@ -1,0 +1,54 @@
+.button {
+  padding: 0px 1.5rem;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: .3s;
+  font-size: 1rem;
+  text-transform: uppercase;
+  height: 3rem;
+  color: white;
+}
+
+.primary {
+  background-color: #8A817B;
+}
+.primary:hover {
+  background-color: #037F9C;
+}
+
+.secondary {
+  background-color: #F1F1F1;
+  color: #707070;
+}
+.secondary:hover {
+  background-color: #484440;
+  color: #F8F9FA;
+}
+
+.success {
+  background-color: #1E8E3E;
+}
+.success:hover {
+  background-color: #1D7030;
+}
+
+.danger {
+  background-color: #D93025;
+}
+.danger:hover {
+  background-color: #952C0C;
+}
+
+.warning {
+  background-color: #FEAC0E;
+  color: #484440;
+}
+.warning:hover {
+  background-color: #ED9C2E;
+}
+
+.full {
+  width: 100%;
+}

@@ -1,0 +1,8 @@
+<button
+  [type]="type"
+  class="button {{variant}}"
+  [class.full]="full"
+  (click)="event.emit('click')"
+>
+  {{label}}
+</button>
