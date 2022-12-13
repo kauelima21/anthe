@@ -4,7 +4,7 @@
   border-radius: 5px;
   border: none;
   cursor: pointer;
-  transition: .3s;
+  transition: 0.3s;
   font-size: 1rem;
   text-transform: uppercase;
   height: 3rem;
@@ -12,41 +12,41 @@
 }
 
 .primary {
-  background-color: #8A817B;
+  background-color: #37b6c4;
 }
 .primary:hover {
-  background-color: #037F9C;
+  background-color: #037f9c;
 }
 
 .secondary {
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   color: #707070;
 }
 .secondary:hover {
   background-color: #484440;
-  color: #F8F9FA;
+  color: #f8f9fa;
 }
 
 .success {
-  background-color: #1E8E3E;
+  background-color: #1e8e3e;
 }
 .success:hover {
-  background-color: #1D7030;
+  background-color: #1d7030;
 }
 
 .danger {
-  background-color: #D93025;
+  background-color: #d93025;
 }
 .danger:hover {
-  background-color: #952C0C;
+  background-color: #952c0c;
 }
 
 .warning {
-  background-color: #FEAC0E;
+  background-color: #feac0e;
   color: #484440;
 }
 .warning:hover {
-  background-color: #ED9C2E;
+  background-color: #ed9c2e;
 }
 
 .full {
